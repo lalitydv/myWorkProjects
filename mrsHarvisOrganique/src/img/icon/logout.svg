@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91.164" height="87.825" viewBox="0 0 91.164 87.825">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ba7d82"/>
+      <stop offset="1" stop-color="#f8b1b6"/>
+    </linearGradient>
+    <filter id="logout" x="0" y="0" width="91.164" height="81.141" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#e09da2" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1162" x="0.455" y="2.528" width="57.983" height="85.297" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+      <feFlood flood-color="#e09da2" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1582" data-name="Group 1582" transform="translate(-1405.62 -40.475)">
+    <g transform="matrix(1, 0, 0, 1, 1405.62, 40.48)" filter="url(#logout)">
+      <path id="logout-2" data-name="logout" d="M23.059,54.141a3.009,3.009,0,0,1-3.01-3.007V39.1a3.008,3.008,0,1,1,6.017,0v9.021H58.15V6.015H26.067v9.024a3.008,3.008,0,0,1-6.017,0V3.008A3.01,3.01,0,0,1,23.059,0h38.1a3.008,3.008,0,0,1,3.007,3.008V51.134a3.007,3.007,0,0,1-3.007,3.007ZM9.9,38.222.879,29.2a.034.034,0,0,0-.007-.009C.8,29.122.74,29.049.681,28.978.651,28.943.626,28.9.6,28.87S.535,28.784.5,28.74s-.054-.086-.079-.13-.049-.081-.072-.122S.309,28.4.287,28.351s-.042-.087-.059-.13-.032-.089-.05-.135-.035-.094-.049-.143a1.167,1.167,0,0,1-.035-.136c-.012-.05-.027-.1-.037-.149S.04,27.552.032,27.5s-.015-.088-.017-.13A2.953,2.953,0,0,1,0,27.074v-.008a2.845,2.845,0,0,1,.015-.292c0-.048.012-.089.017-.137s.015-.1.025-.155.025-.1.037-.151.02-.089.035-.134.032-.1.049-.146.032-.089.05-.13.04-.089.062-.134.04-.089.064-.135.05-.083.074-.122.05-.087.077-.13a1.63,1.63,0,0,1,.1-.134c.025-.035.049-.07.077-.1a2.479,2.479,0,0,1,.2-.22L9.9,15.919a3.009,3.009,0,0,1,4.255,4.256l-3.888,3.888H45.114a3.008,3.008,0,1,1,0,6.017H10.269l3.888,3.888A3.008,3.008,0,1,1,9.9,38.222Z" transform="translate(77.66 62.64) rotate(180)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1405.62, 40.48)" filter="url(#Path_1162)">
+      <path id="Path_1162-2" data-name="Path 1162" d="M4.212,0,26.771,5.651a4.212,4.212,0,0,1,4.212,4.212V54.085A4.212,4.212,0,0,1,26.771,58.3L4.212,52.646A4.212,4.212,0,0,1,0,48.434V4.212A4.212,4.212,0,0,1,4.212,0Z" transform="translate(13.96 11.03)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

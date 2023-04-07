@@ -1,0 +1,85 @@
+
+/*---------------------
+  Call To Action
+-----------------------*/
+.callto {
+    overflow: hidden;
+  }
+  
+  .callto__left {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .callto__left__text span {
+    font-size: 30px;
+    color: #e65783;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .callto__left__text h2 {
+    font-size: 300px;
+    color: #ffffff;
+    font-family: "Mattings Regular";
+    line-height: 165px;
+  }
+  
+  .callto__form {
+    height: 550px;
+    padding: 90px 100px 65px;
+  }
+  .callto__form h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  .callto__form input {
+    background: #ffffff;
+    height: 46px;
+    width: 100%;
+    font-size: 16px;
+    color: #888888;
+    padding-left: 20px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .callto__form input::placeholder {
+    color: #888888;
+  }
+  .callto__form .nice-select {
+    height: 46px;
+    line-height: 46px;
+    border-radius: 0;
+    float: none;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  .callto__form .nice-select .list {
+    margin-top: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  .callto__form .nice-select span {
+    font-size: 16px;
+    color: #888888;
+  }
+  .callto__form .nice-select:after {
+    display: none;
+  }
+  .callto__form textarea {
+    background: #ffffff;
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    color: #888888;
+    padding-left: 20px;
+    border: none;
+    padding-top: 12px;
+    margin-bottom: 24px;
+  }
+  .callto__form textarea::placeholder {
+    color: #888888;
+  }
+  

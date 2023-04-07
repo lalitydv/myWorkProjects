@@ -1,0 +1,39 @@
+.login {
+    position: relative;
+    width: 400px;
+    padding-top: 100px;
+    /* margin-top: 40px; */
+    /* margin-top: -50px; */
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 50px auto 25px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+}
+
+.card_logo_image {
+    height: 128px;
+    width: 128px;
+}
+
+.card_logo {
+    padding: 40px;
+    text-align: center !important;
+}
+
+.title {
+    text-align: center;
+    color: black;
+}
+
+.cart_content {
+    text-align: center;
+    color: black;
+}
+
+.google_login {
+    width: 100%;
+}

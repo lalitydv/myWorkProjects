@@ -1,0 +1,79 @@
+/*---------------------
+  About
+-----------------------*/
+@font-face {
+    font-family: Mattings;
+    src: url(../../fonts/Mattings-yw15m.ttf);
+  }
+  .font-style{
+    font-family: Mattings;
+  }
+  .about_content{
+    text-align: justify;
+  }
+  .about {
+      padding-bottom: 70px;
+      position: relative;
+      z-index: 1;
+      /* overflow: hidden; */
+    }
+    .about:after {
+      position: absolute;
+      left: 0;
+      top: -150px;
+      right: 0;
+      width: 1105px;
+      height: 1070px;
+      background: url(../../img/about/about-bg.png);
+      content: "";
+      margin: 0 auto;
+    }
+    
+    .about__text .section-title {
+      margin-bottom: 30px;
+    }
+    .about__text .section-title h2 {
+      font-size: 200px;
+      line-height: 125px;
+      font-family: Mattings;
+    }
+    .about__text .section-title span {
+      font-size: 20px;
+      color: #e65783;
+      font-weight: 500;
+      letter-spacing: 4px;
+      display: block;
+      text-transform: uppercase;
+  }
+    .about__text .section-title h2::before {
+      position: absolute;
+      /* left: -48px; */
+      top: 20px;
+      height: 117px;
+      width: 163px;
+      background: url(../../img/icon/s-bg.png);
+      content: "";
+      z-index: -1;
+    }
+    .about__text p {
+      color: #200204;
+      line-height: 30px;
+      margin-bottom: 65px;
+    }
+    
+    .about__pic img {
+      min-width: 100%;
+    }
+    .contact-btn{
+      display: inline-block;
+      font-size: 18px;
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: #e65783;
+      padding: 14px 40px 12px;
+      border-radius: 50px;
+      border-style: none;
+    }
+    

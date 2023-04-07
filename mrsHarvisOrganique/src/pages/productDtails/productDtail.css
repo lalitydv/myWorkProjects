@@ -1,0 +1,278 @@
+
+/*---------------------
+  Product Details
+-----------------------*/
+.product-details {
+    padding-bottom: 60px;
+  }
+  
+  .product__details__pic {
+    margin-right: -30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  
+  .product__details__pic__item {
+    float: left;
+    width: calc(79.4% - 30px);
+    border: 1px solid #dddddd;
+    margin-right: 30px;
+    height: 550px;
+  }
+  .product__details__pic__item img {
+    min-width: 100%;
+    height: 100%;
+  }
+  
+  .product__details__thumb {
+    float: left;
+    width: calc(20.6% - 30px);
+  }
+  
+  .pt__item {
+    border: 1px solid #dddddd;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .pt__item.active {
+    border-color: #200204;
+  }
+  .pt__item:last-child {
+    margin-bottom: 0;
+  }
+  .pt__item img {
+    min-width: 100%;
+  }
+  
+  .product__details__text {
+    margin-bottom: 50px;
+  }
+  
+  .product__details__text__title {
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 46px;
+  }
+  .product__details__text__title h4 {
+    color: #200204;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  .product__details__text__title .price {
+    font-size: 24px;
+    color: #e65783;
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+  .product__details__text__title ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+  }
+  .product__details__text__title ul li:after {
+    position: absolute;
+    right: -22px;
+    top: 1px;
+    content: "|";
+    color: #888888;
+    font-size: 15px;
+  }
+  .product__details__text__title ul li:last-child {
+    margin-right: 0;
+  }
+  .product__details__text__title ul li:last-child:after {
+    display: none;
+  }
+  .product__details__text__title ul li .rating i {
+    font-size: 14px;
+    color: #ECBA0B;
+    margin-right: -4px;
+  }
+  .product__details__text__title ul li .rating i:last-child {
+    margin-right: 0;
+  }
+  .product__details__text__title ul li span {
+    font-size: 14px;
+    color: #111111;
+  }
+  
+  .product__details__info {
+    padding: 40px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .product__details__info ul {
+    margin-bottom: 12px;
+  }
+  .product__details__info ul li {
+    list-style: none;
+    font-size: 15px;
+    color: #888888;
+    line-height: 30px;
+  }
+  .product__details__info ul li span {
+    color: #111111;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .product__details__info .product__details__info__color h6 {
+    font-size: 15px;
+    color: #888888;
+    display: inline-block;
+    margin-right: 16px;
+  }
+  
+  .product__details__info__color__items {
+    display: inline-block;
+  }
+  .product__details__info__color__items .pc__item {
+    display: inline-block;
+    margin-right: 6px;
+  }
+  .product__details__info__color__items .pc__item:last-child {
+    margin-right: 0;
+  }
+  .product__details__info__color__items .pc__item input {
+    position: absolute;
+    visibility: hidden;
+  }
+  .product__details__info__color__items .pc__item label {
+    height: 12px;
+    width: 12px;
+    background: #653728;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 0;
+    position: relative;
+  }
+  .product__details__info__color__items .pc__item label.color-2 {
+    background: #DBA07A;
+  }
+  .product__details__info__color__items .pc__item label.color-3 {
+    background: #DAB8B2;
+  }
+  .product__details__info__color__items .pc__item label.active:after {
+    opacity: 1;
+  }
+  .product__details__info__color__items .pc__item label:after {
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgba(242, 101, 96, 0.3);
+    content: "";
+    border-radius: 50%;
+    opacity: 0;
+  }
+  
+  .product__details__widget {
+    overflow: hidden;
+    padding-top: 50px;
+  }
+  .product__details__widget .quantity {
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+  }
+  .product__details__widget .quantity .pro-qty {
+    width: 170px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    padding: 0 20px;
+    border-radius: 50px;
+  }
+  .product__details__widget .quantity .pro-qty .qtybtn {
+    font-size: 24px;
+    color: #200204;
+    width: 25px;
+    float: left;
+    height: 100%;
+    line-height: 46px;
+    cursor: pointer;
+  }
+  .product__details__widget .quantity .pro-qty input {
+    font-size: 15px;
+    color: #200204;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 78px;
+    float: left;
+    background: transparent;
+    border: none;
+    height: 100%;
+    text-align: center;
+  }
+  .product__details__widget .pd__cart {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background: #e65783;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 14px 50px 12px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+  }
+  .product__details__widget .heart__btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product__details__desc__tab {
+    background: #f8f2f2;
+    padding: 45px 0;
+    margin-top: 50px;
+  }
+  .product__details__desc__tab .nav {
+    border: none;
+    margin-bottom: 38px;
+    justify-content: center;
+  }
+  .product__details__desc__tab .nav-item {
+    margin-right: 65px;
+    position: relative;
+  }
+  .product__details__desc__tab .nav-item:after {
+    position: absolute;
+    right: -36px;
+    top: 0;
+    content: "/";
+    color: #dddddd;
+    font-size: 20px;
+  }
+  .product__details__desc__tab .nav-item:last-child {
+    margin-right: 0;
+  }
+  .product__details__desc__tab .nav-item:last-child:after {
+    display: none;
+  }
+  .product__details__desc__tab .nav-link {
+    font-size: 20px;
+    color: #100303;
+    padding: 0;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .product__details__desc__tab .nav-link.active {
+    color: #e65783;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .product__details__desc__tab .tab-content {
+    text-align: center;
+  }
+  .product__details__desc__tab .tab-content p {
+    line-height: 27px;
+    margin-bottom: 0;
+  }
+  

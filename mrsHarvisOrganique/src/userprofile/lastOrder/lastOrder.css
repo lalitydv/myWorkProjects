@@ -1,0 +1,120 @@
+/*---------------------
+Order
+-----------------------*/
+.order__table {
+  padding-right: 40px;
+}
+.order__table table {
+  width: 100%;
+}
+.order__table thead {
+  border-bottom: 1px solid #e1e1e1;
+}
+.order__table thead tr th {
+  /* font-size: 20px; */
+  color: #100303;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-weight: 400;
+  text-align: center;
+  /* padding-left: 20px;
+  padding-right: 10px; */
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
+}
+.order__table tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+.order__table tbody tr td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.order__table tbody tr td.order__item {
+  width: 150px;
+  text-align: center;
+}
+.order__table tbody tr td.order__item .order__item__pic {
+  /* float: left; */
+  /* margin-right: 30px; */
+}
+.order__table tbody tr td.order__item .order__item__pic img {
+  /* border: 1px solid #dddddd; */
+  /* margin-left: 20px; */
+}
+.order__table tbody tr td.order__item .order__item__text {
+  overflow: hidden;
+  padding-top: 24px;
+}
+.order__table tbody tr td.order__item .order__item__text h6 {
+  font-size: 15px;
+  color: #100303;
+  margin-bottom: 12px;
+}
+.order__table tbody tr td.order__item .order__item__text span {
+  color: #e65783;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+}
+
+.order__quantity {
+  width: 200px;
+}
+.order__quantity .quantity .pro-qty {
+  width: 100px;
+  height: 46px;
+}
+.order__quantity .quantity .pro-qty input {
+  font-size: 15px;
+  color: #111111;
+  float: left;
+  text-align: center;
+  border: none;
+  background: transparent;
+  width: 66px;
+  height: 48px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.order__quantity .quantity .pro-qty .qtybtn {
+  font-size: 16px;
+  color: #888888;
+  float: left;
+  height: 100%;
+  line-height: 46px;
+  cursor: pointer;
+}
+
+.order__price {
+  font-size: 15px;
+  color: #111111;
+  width: 180px;
+}
+.order_table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 20px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #666;
+}
+.order_table tr td {
+  /* border: 1px solid #ccc; */
+}
+.order_head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.order_head img {
+  width: 50px;
+  height: 33px;
+}
+.lasstordermap {
+  text-align: center;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 0px 0px 20px;
+  font-weight: bold;
+}

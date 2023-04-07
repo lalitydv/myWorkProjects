@@ -1,0 +1,123 @@
+.submit_data {
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.add_button {
+  width: 100px;
+}
+
+.form_row {
+  display: flex;
+}
+
+.form_lable {
+  width: 150px;
+  margin-top: 15px;
+}
+
+.form_input {
+  margin-top: 15px;
+}
+
+.address_head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.address_head img {
+  width: 50px;
+  height: 45px;
+}
+
+.add_button {
+  border-radius: 15px;
+  background-color: white;
+}
+
+.address_table {
+  border-collapse: collapse;
+  border-radius: 30px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 1px #666;
+  /* this draws the table border  */
+}
+
+.address_table tr td {
+  border: 1px solid #ccc;
+}
+.icone {
+  height: 20px;
+  width: 30px;
+  font-size: 50px;
+  color: rgb(235, 28, 162);
+  border-color: rgb(223, 139, 194);
+}
+.Addadress {
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  border: 1px solid;
+  padding: 5px;
+  background-color: rgb(223, 139, 194);
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border-color: rgb(145, 61, 115);
+}
+.Addadress:hover {
+  background-color: rgb(235, 28, 162);
+}
+
+/* --------------------Popup---------- */
+.AddressPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.conteners {
+  /* position: relative; */
+  padding: 20px;
+  width: 55%;
+  max-width: 950px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.flexcontener {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.maincontentinpopup {
+  display: flex;
+  flex-direction: row;
+}
+.IoCloseSharp {
+  float: right;
+  font-size: 30px;
+  margin-right: 25px;
+  color: #555;
+}
+.addadressName {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-right: 25px; */
+  color: #555;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
