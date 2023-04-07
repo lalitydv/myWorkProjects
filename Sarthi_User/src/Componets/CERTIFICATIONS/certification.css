@@ -1,0 +1,13 @@
+@keyframes d1 {
+  40% {
+    transform: scale(1.5);
+  }
+  80% {
+    transform: scale(1);
+  }
+}
+.display-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
